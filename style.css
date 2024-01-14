@@ -1,0 +1,133 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/*----nav----------*/
+.nav{
+    height: 60px;
+    background-color: rgb(69, 126, 126);
+    color: white;
+    display: flex;
+    align-items: center;
+    
+    width: 100%;
+
+    
+} 
+.nav-logo{
+    height: 60px;
+    width: 85px;
+    margin-left: 10px;
+    
+}
+
+.logo{
+    background-image: url("Untitled\ \(1\).png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    margin-right: 100px;
+}
+
+.border :hover{
+    border: 2px solid whitesmoke;
+}
+
+.space{
+    background-color: lightcyan;
+    height: 40px;
+    width: 2500px;
+    margin-left: 10px;
+    color: darkslategray;
+    border-radius: 10px;
+
+}
+.widget{
+    height: 60px;
+    background-color: rgb(69, 126, 126);
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 100%; 
+    
+}
+
+.text{
+    margin-left: 3px;
+}
+
+.Profile{
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    margin-left:50px;
+   
+
+}
+
+.bookmark{
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    margin-left:100px;
+}
+
+.watched{
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    margin-left:100px;
+}
+
+.menu{
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    margin-left:100px;
+}
+
+
+
+/*-------main body--------*/
+main{
+    display: flex;
+    margin-top: 1px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.stage{
+    border: 5px solid rgb(69, 126, 126);
+    height: 600px;
+    width: 1500px;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color:lightcyan ;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: black;
+    margin: 10px;
+}
